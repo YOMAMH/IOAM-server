@@ -1,0 +1,40 @@
+{
+  "mysql": {
+    "port": 3306,
+    "host": "127.0.0.1",
+    "database": "ty_cmdb",
+    "dialect": "mysql",
+    "username": "root",
+    "password": "1234"
+  },
+  "redis": {
+    "port": 6379,
+    "host": "r-2ze7f26ae91379f4.redis.rds.aliyuncs.com",
+    "user": "lens",
+    "pass": "nEtop2o10"
+  },
+  "ldap": {
+    "url": "ldap://ldap.tingyun.com"
+  },
+  "listenPort": {
+    "port": 3000
+  },
+  "UCloudAuth": {
+    "name": "UCloudAuth",
+    "version": "0.0.1",
+    "private_key": "1fdc7710e735cdf39d4a807e24a19345b5d8ac69",
+    "PublicKey": "yAObJLeum7i4oCIRAptwBgma7D9OmylIgYjhThNSHiVdFnXt",
+    "ProjectId": "org-3932",
+    "pageSize": 500
+  },
+  "aliyunAuth": {
+    "name": "aliyunAuth",
+    "version": "0.0.1",
+    "accessKeyId": "LTAIzRDn4nFUxOKo",
+    "secretAccessKey": "cqiXnM8caxWzNoEEuN8e4e3vAfxODr",
+    "pageSize": 100
+  },
+  "nodeApi": {
+    "api": "http://10.10.245.127:8080/api/v1/nodes"
+  }
+}

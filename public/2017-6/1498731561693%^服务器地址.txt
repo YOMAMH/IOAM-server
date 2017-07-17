@@ -1,0 +1,61 @@
+ssh -l renmh 10.194.1.2   mima921001
+
+kubectl get pods|grep cmdb
+
+kubectl exec -it cmdb-server-hbgw6  bash
+
+sudo netstat -lnp | grep
+
+
+svn地址：https://192.168.1.42/tingyun-new-sys-doc/trunk/
+
+http://vip.51vpnn.org:789/server
+
+brew services start mongodb
+
+
+git.tingyun.com
+
+
+ALTER TABLE `ty_cmdb`.`uphost_info_base` 
+ADD COLUMN `Survive` TINYINT NULL DEFAULT 1 AFTER `IPSet`;
+
+
+"mysql":{
+    "port": 3306,
+    "host": "rm-2ze8u4o19ynsdxf3e.mysql.rds.aliyuncs.com",
+    "database": "ty_cmdb",
+    "dialect": "mysql",
+    "username": "lens",
+    "password": "nEtop2o10"
+  },
+  "redis":{
+    "port": 6379,
+    "host": "r-2ze7f26ae91379f4.redis.rds.aliyuncs.com"
+    "user": "lens"
+    "pass": "nEtop2o10"
+  },
+  "ldap":{
+    "url":"ldap://ldap.tingyun.com"
+  },
+  "listenPort":{
+    "port": 3000
+  }
+
+基础网络/弹性IP
+基础网络/共享带宽
+
+
+AK LTAIzRDn4nFUxOKoSK  cqiXnM8caxWzNoEEuN8e4e3vAfxODr
+
+
+
+手动配置ip
+192.168.1.103
+255.255.255.0
+192.168.1.253
+
+
+
+
+
